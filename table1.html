@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table One</title>
+    <style>
+        .tableone{
+            border: 1px solid black;
+            width: 60vw;
+            margin: auto;
+        }
+        .tableone td{
+            border: 1px solid black;
+        }
+
+        .tabletwo{
+            border: 1px solid black;
+            width: 60vw;
+            margin: auto;
+            margin-top: 50px;
+            height: 40vh;
+        }
+        .tabletwo td{
+            border: 1px solid black;
+        }
+        .tabletwo .box1{
+            width: 30;
+        }
+        img{
+            width: 100%;
+            /* height: 100%; */
+        }
+        .tabletwo tr .image{
+            width: 265px;
+            height: 125px;
+        }
+
+        .tablethree{
+            border: 1px solid black;
+            width: 60vw;
+            margin: auto;
+            margin-top: 50px;
+            height: 30%;
+        }
+
+        .tablethree td{
+            border: 1px solid black;
+        }
+
+        .tablethree tr .adjust{
+            height: 17px;
+        }
+    </style>
+</head>
+<body>
+    <table class="tableone">
+        <tr>
+            <td style="text-align: left;">left</td>
+            <td style="text-align: center;">center</td>
+            <td style="text-align: right;">right</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">left</td>
+            <td style="text-align: center;">center</td>
+            <td style="text-align: right;">right</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">left</td>
+            <td style="text-align: center;">center</td>
+            <td style="text-align: right;">right</td>
+        </tr>
+    </table>
+
+    <table class="tabletwo">
+        <tr><td colspan="3" style="background-color: green; height: 18px;"></td></tr>
+        <tr>
+            <td class="box1"></td>
+            <td class="image"><img src="footbal.png" alt="not found"></td>
+            <td class="box1"></td>
+        </tr>
+        <tr><td colspan="3" style="background-color: blue; height: 18px;"></td></tr>
+    </table>
+
+    <table class="tablethree">
+        <tr>
+            <td colspan="6" class="adjust"></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+        </tr>
+        <tr>
+            <td class="adjust"></td>
+            <td rowspan="2" colspan="3"></td>
+            <td class="adjust"></td>
+        </tr>
+        <tr>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+        </tr>
+        <tr>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+            <td class="adjust"></td>
+        </tr>
+        <tr>
+            <td colspan="6" class="adjust"></td>
+        </tr>
+    </table>
+</body>
+</html>
